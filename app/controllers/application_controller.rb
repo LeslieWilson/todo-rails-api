@@ -1,2 +1,3 @@
-class ApplicationController < ActionController::API
+require 'pry'
+class ApplicationController < ActionController::API  
 end

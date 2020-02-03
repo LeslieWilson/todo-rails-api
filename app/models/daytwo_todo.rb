@@ -1,0 +1,2 @@
+class DaytwoTodo < ApplicationRecord
+end

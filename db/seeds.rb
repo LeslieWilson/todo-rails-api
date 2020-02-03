@@ -7,3 +7,5 @@
 #   Character.create(name: 'Luke', movie: movies.first)
 
 Todo.create(title: "Buy food: milk, bread, fruits", done: false)
+
+DaytwoTodo.create(field:"i don't know", isCompleted:false)
