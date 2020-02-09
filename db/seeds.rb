@@ -9,3 +9,5 @@
 Todo.create(title: "Buy food: milk, bread, fruits", done: false)
 
 DaytwoTodo.create(field:"i don't know", isCompleted:false)
+
+Note.create(content: "my name is leslie and I like to walk in the park its so cool I do it every single day only when its raining to I like to drive a car instead")
