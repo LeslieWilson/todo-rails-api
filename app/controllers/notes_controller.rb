@@ -2,7 +2,7 @@ class NotesController < ApplicationController
 
 
   def index
-    notes = Note.order("created_at DESC")
+    notes = Note.all
     newNotes = notes.map{|item|
     {
       "content": item.content,
@@ -12,4 +12,15 @@ class NotesController < ApplicationController
     render json: newNotes
   end
 
+  def update
+    note = Note.first
+    note.update(content: params["content"])
+    notes = Note.all
+    newNotes = notes.map{|note|
+    {
+      "content": note.content
+      }
+    }
+    render json: newNotes
+ end
 end
