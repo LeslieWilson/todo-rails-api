@@ -1,6 +1,5 @@
 class NotesController < ApplicationController
 
-
   def index
     notes = Note.all
     newNotes = notes.map{|item|
