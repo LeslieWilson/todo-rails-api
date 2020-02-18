@@ -6,7 +6,6 @@ Rails.application.routes.draw do
       resources :todos
     end
 
-
     scope '/api/v1' do
       resources :daytwo_todos
     end
